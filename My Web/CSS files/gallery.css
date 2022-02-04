@@ -1,0 +1,138 @@
+	*{
+		padding: 0;
+		margin: 0;
+	}
+
+	body{
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/ga1.jpg");
+		height: 100vh; 
+		background-size: cover;
+		background-position: center;
+	}
+
+	.topic{
+		margin: 0 0 50px 0;
+		font-size: 55px;
+		color: black;
+		background-color: white;
+		padding: 20px;
+	}
+
+	#cancel{
+		color: white;
+		margin-right:8px ;		
+	}
+
+	.btn{
+	    bottom: 40px;
+	    right: 30px;
+	    top: 10px;
+	    font-size: 18px;
+	    float: right;
+	    background-color:white;
+	    cursor: pointer;
+	    padding: 15px;
+	}
+
+	.btna{
+		text-decoration: none;
+		color: black;
+		opacity: 0.6;
+	}
+
+	.btna:hover{
+		opacity: 1;
+	}
+
+	html{
+		scroll-behavior: smooth;
+	}
+
+	.column{
+		margin: 30px 0 0 50px;
+		cursor: pointer;
+	}
+
+	.text{
+		margin: 0 520px 0 520px;
+		border-radius: 6px;
+		background-color: white;
+		text-align: center;
+		font-size: 35px;
+		padding: 10px;
+		margin-top: 20px;
+	}
+
+	.previw{
+		margin:50px 0 100px 350px;
+		height: 499px;
+		width: 800px;
+		border: 5px solid white;
+	}
+
+	.image-container{
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/ga2.jpg");
+		height: 1345px;
+		border: 5px solid white;
+	}
+
+	.image-container button {
+		display: none;
+	}
+
+	.column img{
+		border: 1px solid white;
+		opacity: 0.6;
+	}
+
+	.column img:hover{
+		opacity: 1;
+	}
+
+	h1{
+	    color: white;
+	    text-align: center;
+	    font-size: 100px;
+	}
+
+    .header{
+     	background-color: black;
+    }
+
+    .log{
+     	position: absolute;
+     	top: 20px;
+     	left: 200px;
+    }
+
+    .btn-box{
+    	margin-left: 300px;
+    }
+
+    .main{
+    	height: 70px;
+    	width: 170px;
+    	bottom: 40px;
+	    top: 40px;
+	    font-size: 25px;
+	    background-color:white;
+	    cursor: pointer;
+	    border-radius: 6px;
+	    margin-left: 200px;
+    }
+
+	.main:hover{
+		background-color: black;
+		color: white;
+		border-color:white ;
+	}
+
+	.me{
+		margin-top: 50px;
+		height: 60px;
+		padding: 20px;
+		text-align: center;
+		background-color: white;
+	}
+
+

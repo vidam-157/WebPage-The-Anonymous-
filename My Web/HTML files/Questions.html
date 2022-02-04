@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head lang="eng">
+	<meta charset="utf-8">
+	<title>Quiz</title>
+
+    <link rel="stylesheet" href="../CSS files/questions.css">
+</head>
+
+<body>
+
+    <div class="header">
+
+            <h1>THE ANONYMOUS</h1>
+            <div class=log>
+                <img src="../CSS files/images/logo.jpg" alt="logo" width="70" height="70">
+            </div>
+            
+        </div>
+        
+        <h1 class="topic"> The Anonymous Quiz </h1>
+
+        <div> <button class="start" onclick="rule_display()"> Start Quiz</button> </div>
+
+        <p class="tag">Welcome To the Quiz Game, <br><span style="margin-left:55px"> Click Start To Proceed</p>
+
+        <!---- Section Contains the rules of the quiz ---->
+        <div class="rule_box" id="rule_box">
+
+            <h2>Rules for Quiz</h2>
+
+            <div class="rules">
+                <div class="info">1.] You have 10 MCQ questions to answer.</div>
+                <div class="info">2.] You have 2 minutes to Complete Answering.</div>
+                <div class="info">3.] Each question contains 2 points.</div>
+                <div class="info">4.] You can't go back in the quiz.</div>
+            </div>
+
+            <hr>
+            <div class="buttons">
+                <button class="back" onclick="exit_rules()">Exit</button>
+                <button class="next" onclick="open_quiz()">Continue</button>
+            </div>
+        </div>
+
+        <!---- Section Contains the Questions and Answers ---->
+        <div class="ques_box" id="ques_box">
+
+            <header>
+                <div class="Qhead">The Quiz</div>
+                <div class="Qtimer">Time Left <span class="count" id="count">100</span></div>
+            </header>
+            <hr>
+
+            <section>
+                <div class="questions" id="theQues"> </div>
+                <div class="option" id="options"> </div>
+            </section>
+               
+            <hr> 
+            <footer class="box_foot">
+                <button class="back" onclick="next_quiz()">Next</button>
+            </footer>
+        </div>
+
+        <!---- Section Contains the Result of the Quiz ---->
+        <div class="result_box" id="result_box">
+
+            <div class="image">
+                <img src="../CSS files/images/crown.jpg" style="margin-left: 100px;">
+            </div>
+
+            <p> Game Over !!!<br>
+                Thank You for Participating <br>
+                You have got <span>2</span> out of 10
+            </p>
+
+        </div>
+
+        <div class="btn-box" id="button-box">
+        <a href="Explorer.html"><button class="main">Back</button></a>
+        <a href="Gallery.html"><button class="main">Gallery</button></a>
+    </div>
+    
+    <div class="me">
+        <br>
+        <p>&copy; Anonymous Group <br> All rights reserved
+        <br> Developed By : <a href="#">Vidam Sathnindu</a></p>
+    </div>
+
+        <script  src="../JS files/quiz.js"> </script>
+        <script  src="../JS files/questions.js"> </script>
+
+           
+
+</body>
+</html>

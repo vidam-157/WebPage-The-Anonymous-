@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../CSS files/images/v.jpg");
+}
+
+img{
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.content{
+	float: right;
+	margin: 50px 50px 0 0px ;
+	color: white;
+	font-size:22px ;
+}
